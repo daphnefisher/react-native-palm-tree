@@ -3,8 +3,8 @@
 #import <CodePush/CodePush.h>
 #if __has_include("RNCPushNotificationIOS.h")
     #import "RNCPushNotificationIOS.h"
-    #import "UMessage.h"
-    #import "UNUserNotificationCenter.h"
+    #import "UMPush/UMessage.h"
+    #import "UserNotifications/UNUserNotificationCenter.h"
 #else
     #import <RNCPushNotificationIOS.h>
     #import <UMPush/UMessage.h>
